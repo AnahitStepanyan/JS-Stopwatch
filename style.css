@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  -webkit-background-size: cover;
+  background: linear-gradient(to bottom, #05292E, #0A4C55);
+  background-repeat:no-repeat;
+}
+
+#wrapper{
+  width: 100%;
+  margin: 300px auto;
+  height: 100%;
+}
+h3{
+  color: #fff;
+  top: 20px;
+  right: 50px;
+  position: absolute;
+  font: 40px serif;
+}
+button{
+  font-size: 60px;
+  padding: 25px 30px;
+  margin-left: 7px;
+  cursor: pointer;
+  color: #05292E;
+}
+button:hover{
+  color: #176772;
+}
+#p-buttons span{
+  display: none;
+}
+span{
+  color: #fff;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+#tens{
+  font-size: 30px;
+}
+p{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px){
+  h3{
+    color: #fff;
+    top: 0px;
+    right: 35px;
+    position: absolute;
+    font: 30px serif;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  #wrapper{
+    margin: 150px auto;
+    width: 400px;
+  }
+  button{
+    font-size: 30px;
+    padding: 15px 20px;
+    margin-left: 7px;
+  }
+  span{
+   font-size: 50px;
+  }
+  #p-buttons span{
+    display: block;
+    color: #05292E;
+    font-size: 10px;
+  }
+  h3{
+    color: #fff;
+    top: 0px;
+    right: 20px;
+    position: absolute;
+    font: 15px serif;
+  }
+  #tens{
+    font-size: 20px;
+  }
+}
