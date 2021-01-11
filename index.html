@@ -3,15 +3,19 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS stopwatch</title>
-  <link rel="stylesheet" type="text/css" href="style.css">z
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
   <div id="wrapper">
     <p id="time-spans">
-      <span id="hours">00</span><span>:</span><span id="minutes">00</span><span>:</span><span id="seconds">00</span>
+      <span id="hours">00</span><span>:</span>
+      <span id="minutes">00</span><span>:</span>
+      <span id="seconds">00</span>
       <span id="tens">00</span>
+    </p>
     <p id="p-buttons">
       <button onclick="timer_start()" id="butt-start">start<br><span>(space)</span></button>
       <button onclick="timer_pause()" id="butt-pause">pause<br><span>(space)</span></button>
