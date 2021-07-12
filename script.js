@@ -1,5 +1,6 @@
 "use strict";
 
+console.log('test0');
 let tensId = document.getElementById('tens');
 let secondsId = document.getElementById('seconds');
 let minsId = document.getElementById('minutes');
